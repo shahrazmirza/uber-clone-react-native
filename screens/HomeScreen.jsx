@@ -5,11 +5,11 @@ const HomeScreen = () => {
   return (
     <SafeAreaView>
       <View>
-        <Text className="text-red-700">Apple</Text>
-        {/* <Image
-          className="w-10 h-10"
+        <Image
           source={require("../assets/icons/uber-logo.png")}
-        /> */}
+          className="w-20 h-20 object-contain pt-1 pb-5"
+        />
+        <Text className="text-red-700">HomeScreen</Text>
       </View>
     </SafeAreaView>
   );
